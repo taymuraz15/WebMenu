@@ -1,0 +1,194 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+header {
+    background-image: url('https://cdnsellkit.ru/webAssets/siria15.ru/assets/images/bg-main.png');
+    background-size: cover;      
+    background-position: center;  
+    height: 300px;  
+    display: flex;
+    align-items: center; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;        
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 25px;
+    font-size: 36px;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5722;            
+}
+
+main{
+    display: flex;
+}
+
+.sidebar {
+    display: inline-block;        
+    width: 20%;                  
+    vertical-align: top;          
+    background-color: #ffffff;
+    padding: 30px 0;
+    height: 100%;                 
+    box-sizing: border-box; 
+}
+
+.sidebar ul {
+    list-style: none;         
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 12px 25px;          
+    color: #333333;
+    font-size: 35px;
+    border-radius: 8px;
+    transition: background-color 0.5s; 
+}
+
+.sidebar li:hover {
+    background-color: #d19627;    
+    color: #000000;
+}
+
+.sidebar li a {
+    text-decoration: none; 
+    color: inherit;       
+    display: block;   
+    width: 100%;
+}
+
+
+.content {
+    display: inline-block;        
+    width: 79%;                  
+    box-sizing: border-box;       
+    padding: 40px;                
+    vertical-align: top;          
+}
+
+.content h1 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #222222;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;               
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    
+    background-color: #ffffff; 
+    border-radius: 12px;       
+    padding: 15px;             
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.card-image {
+    width: 100%;             
+    height: 160px;             
+    object-fit: cover;         
+    border-radius: 8px;        
+    margin-bottom: 12px;
+}
+
+.card-title {
+    font-size: 16px;
+    margin: 0 0 6px 0;         
+    color: #111111;
+}
+
+.card-description {
+    font-size: 13px;
+    color: #666666;
+    margin: 0 0 15px 0;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+}
+
+.card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.card-button {
+    background-color: #f0f0f0;  
+    border: none;              
+    width: 36px;              
+    height: 36px;
+    border-radius: 50%;    
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.card-button:hover {
+    background-color: #ff5722;  
+    color: #ffffff;             
+}
+
+footer {
+    background-color: #111111;  
+    color: #ffffff;              
+    padding: 30px 40px;         
+    margin-top: 40px;             
+}
+
+.footer-content {
+    display: flex;       
+    justify-content: space-between; 
+    align-items: center;         
+    max-width: 1200px;           
+    margin: 0 auto;         
+}
+
+.footer-left {
+    font-size: 14px;
+    color: #aaaaaa;              
+}
+
+.footer-right span {
+    font-size: 14px;             
+    color: #ffffff;
+}
